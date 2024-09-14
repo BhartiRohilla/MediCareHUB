@@ -16,7 +16,7 @@ def exit():
 def export_data():
     url=filedialog.asksaveasfilename(defaultextension='.csv')
     indexing=patienttable.get_children()
-    newlist=[]2
+    newlist=[]
     for index in indexing:
         content=patienttable.item(index)
         datalist=content['values']
