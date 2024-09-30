@@ -4,7 +4,6 @@ import ttkthemes
 from tkinter import ttk,messagebox,filedialog
 import pymysql
 import pandas
-#functionality part
 
 def exit():
     result=messagebox.askyesno('confirm','Do you want to exit?')
@@ -332,7 +331,7 @@ connectbutton.place(x=990,y=0)
 leftframe=Frame(root)
 leftframe.place(x=50,y=80,width=300,height=600)
 
-logo_image=PhotoImage(file='img_3.png')
+logo_image=PhotoImage(file='MediCareHUB/assets/img_3.png')
 logo_label=Label(leftframe,image=logo_image)
 logo_label.grid(row=0,column=0)
 
